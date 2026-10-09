@@ -1,4 +1,4 @@
-"""الدرس 3 — النزول التدرّجي: مختبر متحرّك."""
+"""الدرس 6 — النزول التدرّجي: مختبر متحرّك."""
 
 import numpy as np
 import plotly.graph_objects as go
@@ -9,7 +9,7 @@ from utils.style import card, equation, footer, hero, rule, steps, terms, verdic
 
 hero(
     "النزول التدرّجي — كيف يجد الحاسوب القاع وهو أعمى؟",
-    "Lesson 3 · Gradient descent laboratory",
+    "Lesson 6 · Gradient descent laboratory",
     "تخيّل أنك في واد كثيف الضباب ولا ترى شيئاً، وتريد الوصول إلى أخفض نقطة. "
     "الحل الوحيد: تحسّس ميل الأرض تحت قدميك، واخطُ خطوة في اتجاه الانحدار. ثم كرّر.",
 )

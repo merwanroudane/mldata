@@ -1,4 +1,4 @@
-"""الدرس 8 — معايير التقييم: الانحدار والتصنيف."""
+"""الدرس 11 — معايير التقييم: الانحدار والتصنيف."""
 
 import numpy as np
 import pandas as pd
@@ -11,7 +11,7 @@ from utils.style import card, equation, footer, hero, rule, terms, verdict
 
 hero(
     "معايير التقييم — بأي رقم نحكم على النموذج؟",
-    "Lesson 8 · Evaluation metrics for regression and classification",
+    "Lesson 11 · Evaluation metrics for regression and classification",
     "دالة الخسارة هي ما يُحسّنه النموذج. أمّا المقياس فهو ما تُحاسَب عليه أنت. "
     "اختيار المقياس الخطأ يجعل نموذجاً فاشلاً يبدو ناجحاً — وهذا يحدث كل يوم.",
 )

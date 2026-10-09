@@ -1,4 +1,4 @@
-"""الدرس 2 — دوال الخسارة: كيف نُعرِّف «الخطأ»؟"""
+"""الدرس 5 — دوال الخسارة: كيف نُعرِّف «الخطأ»؟"""
 
 import numpy as np
 import plotly.graph_objects as go
@@ -9,7 +9,7 @@ from utils.style import card, equation, footer, hero, rule, terms, verdict
 
 hero(
     "دالة الخسارة — تعريف «الخطأ» هو أخطر قرار في المشروع",
-    "Lesson 2 · Loss functions: defining what wrong means",
+    "Lesson 5 · Loss functions: defining what wrong means",
     "النموذج سيصغّر ما تطلب منه تصغيره، حرفياً وبلا تفكير. "
     "لذلك اختيار دالة الخسارة ليس تفصيلاً تقنياً، بل هو تعريفك أنت لمعنى «النجاح».",
 )

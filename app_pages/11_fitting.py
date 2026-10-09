@@ -1,4 +1,4 @@
-"""الدرس 7 — الإفراط والتقصير في التعلّم، والمقايضة بين التحيّز والتباين."""
+"""الدرس 10 — الإفراط والتقصير في التعلّم، والمقايضة بين التحيّز والتباين."""
 
 import warnings
 
@@ -13,7 +13,7 @@ from utils.style import card, equation, footer, hero, rule, steps, terms, verdic
 
 hero(
     "الإفراط والتقصير في التعلّم — تشخيص المرض من الأرقام",
-    "Lesson 7 · Overfitting, underfitting and the bias–variance trade-off",
+    "Lesson 10 · Overfitting, underfitting and the bias–variance trade-off",
     "لماذا يعطيك نموذج دقّة 99٪ في التدريب و55٪ في الواقع؟ ولماذا يفشل نموذج آخر "
     "في كل مكان؟ هنا نتعلّم قراءة الأعراض ووصف الدواء.",
 )

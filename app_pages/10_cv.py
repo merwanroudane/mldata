@@ -1,4 +1,4 @@
-"""الدرس 6 — التحقق المتقاطع: كل طريقة بالحركة."""
+"""الدرس 9 — التحقق المتقاطع: كل طريقة بالحركة."""
 
 import numpy as np
 import pandas as pd
@@ -10,7 +10,7 @@ from utils.style import TEST_C, TRAIN_C, VAL_C, card, equation, footer, hero, ru
 
 hero(
     "التحقق المتقاطع — حين لا تكفي عيّنة محجوزة واحدة",
-    "Lesson 6 · Cross-validation, fold by fold",
+    "Lesson 9 · Cross-validation, fold by fold",
     "عيّنة تحقق واحدة تعطيك رقماً واحداً، وقد يكون هذا الرقم محض حظّ. "
     "التحقق المتقاطع يعطيك عدّة أرقام فتعرف المتوسط <b>والتشتّت</b> معاً.",
 )

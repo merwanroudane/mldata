@@ -39,61 +39,79 @@ page = st.navigation(
                 default=True,
             ),
         ],
-        "الجزء الأول · التدريب (Training)": [
+        "الجزء الأول · التدريب للمبتدئين (General)": [
             st.Page(
-                "app_pages/02_training.py",
-                title="ما هو التدريب؟",
+                "app_pages/02_basics.py",
+                title="التدريب ببساطة · بلا رياضيات",
+                icon=":material/child_care:",
+            ),
+            st.Page(
+                "app_pages/03_families.py",
+                title="آليات التدريب عبر الخوارزميات",
+                icon=":material/account_tree:",
+            ),
+            st.Page(
+                "app_pages/04_lifecycle.py",
+                title="دورة حياة التدريب",
+                icon=":material/sync:",
+            ),
+        ],
+        "الجزء الثاني · التدريب بالتفصيل (In depth)": [
+            st.Page(
+                "app_pages/05_training.py",
+                title="التشريح الرياضي للتدريب",
                 icon=":material/model_training:",
             ),
             st.Page(
-                "app_pages/03_loss.py",
+                "app_pages/06_loss.py",
                 title="دالة الخسارة",
                 icon=":material/function:",
             ),
             st.Page(
-                "app_pages/04_gradient.py",
+                "app_pages/07_gradient.py",
                 title="النزول التدرّجي",
                 icon=":material/trending_down:",
             ),
             st.Page(
-                "app_pages/05_loop.py",
+                "app_pages/08_loop.py",
                 title="حلقة التدريب الحيّة",
                 icon=":material/play_circle:",
             ),
         ],
-        "الجزء الثاني · تقسيم البيانات (Splitting)": [
+        "الجزء الثالث · تقسيم البيانات (Splitting)": [
             st.Page(
-                "app_pages/06_split.py",
+                "app_pages/09_split.py",
                 title="التدريب / التحقق / الاختبار",
                 icon=":material/call_split:",
             ),
             st.Page(
-                "app_pages/07_cv.py",
+                "app_pages/10_cv.py",
                 title="التحقق المتقاطع",
                 icon=":material/repeat:",
             ),
         ],
-        "الجزء الثالث · التشخيص (Diagnosis)": [
+        "الجزء الرابع · التشخيص (Diagnosis)": [
             st.Page(
-                "app_pages/08_fitting.py",
+                "app_pages/11_fitting.py",
                 title="الإفراط والتقصير في التعلّم",
                 icon=":material/balance:",
             ),
             st.Page(
-                "app_pages/09_metrics.py",
+                "app_pages/12_metrics.py",
                 title="معايير التقييم",
                 icon=":material/speed:",
             ),
         ],
         "مراجع (Reference)": [
             st.Page(
-                "app_pages/10_glossary.py",
+                "app_pages/13_glossary.py",
                 title="القاموس والخلاصة",
                 icon=":material/menu_book:",
             ),
         ],
     },
     position="sidebar",
+    expanded=True,  # 13 lessons: show them all instead of hiding the last few
 )
 
 # ----------------------------------------------------------------------
