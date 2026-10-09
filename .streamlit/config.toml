@@ -1,0 +1,74 @@
+# ============================================================
+#  ML from Scratch  -  Dr Merwan Roudane
+#  Light / pastel theme, locked to light mode (no dark colors)
+# ============================================================
+
+[theme]
+base = "light"
+
+primaryColor            = "#3B7DD8"
+backgroundColor         = "#FBFDFF"
+secondaryBackgroundColor = "#EEF4FC"
+textColor               = "#17263F"
+linkColor               = "#2563C9"
+borderColor             = "#D6E2F2"
+
+codeBackgroundColor = "#F4F8FD"
+codeTextColor       = "#0F4C81"
+
+showWidgetBorder  = true
+showSidebarBorder = true
+baseRadius        = "12px"
+buttonRadius      = "full"
+
+font        = "Cairo:https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap"
+headingFont = "Cairo:https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800&display=swap"
+codeFont    = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+
+baseFontSize      = 16
+baseFontWeight    = 400
+codeFontSize      = "0.86rem"
+headingFontSizes  = ["34px", "27px", "22px", "18px", "16px", "14px"]
+headingFontWeights = [800, 700, 700, 600, 600, 600]
+linkUnderline     = false
+
+# Soft, light-friendly categorical palette
+chartCategoricalColors = [
+  "#3B7DD8",  # blue
+  "#2FB58B",  # mint green
+  "#F0A33C",  # amber
+  "#9B6BD6",  # lavender
+  "#EB6F92",  # rose
+  "#2FA8C7",  # cyan
+  "#8A94A6",  # slate
+]
+
+chartSequentialColors = [
+  "#F5FAFF", "#E3F0FE", "#CDE4FC", "#B2D5FA", "#92C2F6",
+  "#6EAAF0", "#4E92E6", "#3B7DD8", "#2A62B4", "#1C4788",
+]
+
+redColor    = "#E05B6B"
+orangeColor = "#E0902F"
+yellowColor = "#D9B130"
+greenColor  = "#2FA37A"
+blueColor   = "#3B7DD8"
+violetColor = "#8C63CC"
+grayColor   = "#7C8899"
+
+dataframeBorderColor          = "#D6E2F2"
+dataframeHeaderBackgroundColor = "#E8F1FB"
+
+[theme.sidebar]
+backgroundColor         = "#E9F2FC"
+secondaryBackgroundColor = "#DCEAFA"
+codeBackgroundColor     = "#DCEAFA"
+textColor               = "#17263F"
+borderColor             = "#C8DCF4"
+primaryColor            = "#2A62B4"
+
+[server]
+runOnSave = true
+
+[browser]
+gatherUsageStats = false
